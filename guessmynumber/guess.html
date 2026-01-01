@@ -13,16 +13,17 @@
     <main class="game">
         <section id="key-header">
 
-            <div class="line"></div>
             <div class="randomNumberToGuess">
                 <span id="question-mark">?</span>
             </div>
-            <div class="line"></div>
+
         </section>
-        <section><label for="input"> Number between 1 and 20:</label> <input id="input" placeholder="Try"
-                type="number" />
+        <section><label for="input"> Number between 1 and 20:</label> <br /> <input id="input" type="number" />
         </section>
-        <button class="checkbutton">Check</button>
+        <div id="buttons">
+            <button class="checkbutton">Check</button>
+            <button>Reset</button>
+        </div>
         <section class="stats">
             <h2 class="comment">Starting....</h2>
             <h3>score: <span class="score">20</span>/20</h3>
